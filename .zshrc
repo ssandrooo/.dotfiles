@@ -11,9 +11,8 @@ compinit
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
-setopt beep
-unsetopt autocd
 bindkey -v
 # End of lines configured by zsh-newuser-install
 
 
+export PS1="%n@[%2~] %% " 
