@@ -15,4 +15,4 @@ bindkey -v
 # End of lines configured by zsh-newuser-install
 
 
-export PS1="%n@[%2~] %% " 
+export PS1="%n@%m:%2~ %% " 
