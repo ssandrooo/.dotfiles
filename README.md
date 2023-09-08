@@ -1,4 +1,4 @@
-# My .dotfiles for Arch Linux
+# My .dotfiles for Arch Linux (WSL)
 Install script:
 ```
 #!/bin/sh
