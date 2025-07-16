@@ -2,7 +2,7 @@
 
 install script
 ```
-git clone https://github.com/ssandrooo/.dotfiles ~/.dotfiles && sh ~/.dotfiles/install.sh
+sudo pacman -S curl && curl https://raw.githubusercontent.com/ssandrooo/.dotfiles/main/pre_install.sh | sh
 ```
 
 *... still WIP*

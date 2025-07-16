@@ -2,9 +2,8 @@
 set -e
 
 echo '> getting zsh and git config <'
-ln -sf ~/.dotfiles/configs/.zshrc ~/.zshrc
-ln -sf ~/.dotfiles/configs/.zprofile ~/.zprofile
-ln -sf ~/.dotfiles/configs/.gitconfig ~/.gitconfig
+ln -sf ~/.dotfiles/.zshrc ~/.zshrc
+ln -sf ~/.dotfiles/.gitconfig ~/.gitconfig
 
 echo '> updating everything <'
 sudo pacman -Syu
@@ -24,7 +23,6 @@ sudo pacman -S \
 
 echo '> getting ~basic~ programming needs <'
 sudo pacman -S \
-    git \
     neovim \
     tmux
 
