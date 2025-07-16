@@ -1,13 +1,7 @@
 [user]
-	name = snaake20
-	email = 54805944+snaake20@users.noreply.github.com
+	name = ssandroo
+	email = 54805944+ssandrooo@users.noreply.github.com
 [core]
 	editor = vim
 [init]
 	defaultBranch = main
-[credential "https://github.com"]
-	helper = !/home/linuxbrew/.linuxbrew/Cellar/gh/2.34.0/bin/gh auth git-credential
-[credential "https://gist.github.com"]
-	helper = !/home/linuxbrew/.linuxbrew/Cellar/gh/2.34.0/bin/gh auth git-credential
-[safe]
-	directory = /home/gojo/dev/intro-node
